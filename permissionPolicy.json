@@ -1,0 +1,39 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "iam:UpdateAssumeRolePolicy",
+                "iam:CreateRole",
+                "lambda:GetFunctionConfiguration",
+                "iam:AttachRolePolicy",
+                "iam:PutRolePolicy",
+                "cloudfront:CreateInvalidation",
+                "cloudfront:CreateCloudFrontOriginAccessIdentity",
+                "logs:CreateLogStream",
+                "iam:PassRole",
+                "iam:DetachRolePolicy",
+                "iam:DeleteRolePolicy",
+                "lambda:DeleteLayerVersion",
+                "lambda:DeleteFunction",
+                "iam:DetachUserPolicy",
+                "iam:GetRole",
+                "s3:*",
+                "lambda:UpdateFunctionConfiguration",
+                "iam:AttachUserPolicy",
+                "iam:DeleteRole",
+                "lambda:AddLayerVersionPermission",
+                "cloudfront:CreateDistribution",
+                "logs:PutLogEvents",
+                "lambda:UpdateFunctionCode",
+                "iam:CreateServiceLinkedRole",
+                "iam:PutUserPolicy",
+                "lambda:PublishVersion"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
