@@ -1,0 +1,4 @@
+myNextApplication:
+  component: serverless-next.js
+  inputs:
+    policy: 'arn:aws:iam::123123123123:policy/nextjs-serverless'
